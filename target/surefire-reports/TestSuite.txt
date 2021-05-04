@@ -1,0 +1,42 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 27, Failures: 5, Errors: 0, Skipped: 10, Time elapsed: 238.246 s <<< FAILURE! - in TestSuite
+ValidateHomePageTitle(com.amazon.qa.testcases.HomePageTest)  Time elapsed: 4.173 s  <<< FAILURE!
+java.lang.AssertionError: SignIn2Page title not matched expected [Your Amazon.com] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more]
+	at com.amazon.qa.testcases.HomePageTest.ValidateHomePageTitle(HomePageTest.java:43)
+
+ValidatePageTitle(com.amazon.qa.testcases.OnePlus9ProMorningMistPageTest)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.amazon.qa.testcases.OnePlus9ProMorningMistPageTest.ValidatePageTitle(OnePlus9ProMorningMistPageTest.java:41)
+
+ValidateBuyNowIcon(com.amazon.qa.testcases.OnePlus9ProMorningMistPageTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.amazon.qa.testcases.OnePlus9ProMorningMistPageTest.ValidateBuyNowIcon(OnePlus9ProMorningMistPageTest.java:47)
+
+Setup(com.amazon.qa.testcases.OnePlus9ProMorningMistPageTest)  Time elapsed: 32.027 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//INPUT[@id='twotabsearchtextbox']"}
+  (Session info: chrome=90.0.4430.93)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BL2895T', ip: '10.10.9.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\VANSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56638}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7cf2253959bedf001a4a06b8629130b7
+*** Element info: {Using=xpath, value=//INPUT[@id='twotabsearchtextbox']}
+	at com.amazon.qa.testcases.OnePlus9ProMorningMistPageTest.Setup(OnePlus9ProMorningMistPageTest.java:35)
+
+Setup(com.amazon.qa.testcases.OnePlus9ProPageTest)  Time elapsed: 29.971 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//INPUT[@id='twotabsearchtextbox']"}
+  (Session info: chrome=90.0.4430.93)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BL2895T', ip: '10.10.9.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\VANSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56678}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 253a0e1a10726fc334840ee618c1da5c
+*** Element info: {Using=xpath, value=//INPUT[@id='twotabsearchtextbox']}
+	at com.amazon.qa.testcases.OnePlus9ProPageTest.Setup(OnePlus9ProPageTest.java:35)
+

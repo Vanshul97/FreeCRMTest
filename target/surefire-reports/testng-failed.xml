@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="com.amazon.qa.testcases.HomePageTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+          <include name="ValidateHomePageTitle"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.HomePageTest -->
+      <class name="com.amazon.qa.testcases.OnePlus9ProMorningMistPageTest">
+        <methods>
+          <include name="ValidatePageTitle"/>
+          <include name="ValixdatePageTitle"/>
+          <include name="Setup"/>
+          <include name="ValidateBuyNowIcon"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.OnePlus9ProMorningMistPageTest -->
+      <class name="com.amazon.qa.testcases.OnePlus9ProPageTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+          <include name="ValidatePageTitle"/>
+          <include name="ClickCheckBox"/>
+          <include name="OnePlu9ProContinueTest"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.OnePlus9ProPageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
